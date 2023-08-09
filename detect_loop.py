@@ -2,6 +2,7 @@ import angr
 import sys
 import os
 
+
 def load_trace(trace_log):
     trace = []
     with open(trace_log, 'rb') as fr:
