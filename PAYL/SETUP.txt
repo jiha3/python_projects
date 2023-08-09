@@ -1,0 +1,67 @@
+PREREQUISITES
+-------------
+
+The commands in the following instructions are for Linux OS only. If you
+use some other OS, please look for equivalent commands online.
+
+-   Python version 3 - You need to have python version 3 for this. We
+    have tested it on 3.6.9 but it should work on other python 3
+    versions too.
+
+-   How to check your python3 version? `python3 --version`
+
+-   Python modules required (refer to `requirements.txt`) You can first
+    create a virtual environment by using the following commands
+
+    -   `python3 -m venv /path/to/new/virtual/environment` e.g. create
+        an virtual environment in the working directory, please use
+        `python3 -m venv new_env`
+    -   Start the virtual environment: `source new_env/bin/activate`
+    -   Exit the virtual environment: `deactivate`
+    -   Resource: <https://docs.python.org/3/tutorial/venv.html>
+
+-   How to install? `pip install <module name>`
+
+-   To install all of them in one go `pip install -r requirements.txt`
+
+-   How to check module version? `pip freeze | grep <module name>`
+
+HOW TO RUN THE CODE
+-------------------
+
+-   Code is in PAYL/ directory.
+-   To run the code given `python3 wrapper.py`
+
+-   Once you run it, it will take some time to generate the model. Based
+    on the values passed, it will compute false negative and true
+    positive rate. Before modifying the code, run the original code
+    given to see how it works and if your setup is correct.
+
+-   Now, read the project description to understand what the project
+    task is and modify and run the code.
+
+-   *Optional*: Set `verbose = True` (in wrapper.py) to get the graphs
+    for each model This will not be graded but can help you understand
+    the generated models better.
+
+CODE COMPONENTS
+---------------
+
+-   `wrapper.py` It is the entry point for the project code. It calls
+    all other functions and modules for the project.
+
+-   `analysis.py` It trains the model and tests it.
+
+-   `distance_and_clustering.py` This module computes different
+    distances and clusters model.
+
+-   `read_pcap.py` It parses the pcap data and makes it ready for the
+    wrapper to use.
+
+DATA
+----
+
+We have 10 pcap files in PAYL/data directory. We have already written
+script that reads the files and gives data to the model.
+
+All the best !!! Contact us or post on piazza if you run into issues.
