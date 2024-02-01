@@ -25,7 +25,7 @@ configparser==3.5.0
 connexion==2.14.1
 contextlib2==0.6.0.post1
 crypto==1.4.1
-cryptography==2.9
+cryptography==42.0.2
 cupshelpers==1.0
 dbus-python==1.2.18
 defer==1.0.6
@@ -82,7 +82,7 @@ pathspec==0.10.2
 pbr==5.11.0
 peewee==3.15.4
 pexpect==4.8.0
-Pillow==9.0.1
+Pillow==10.2.0
 pipenv==2018.11.26
 pkcs7==0.1.2
 platformdirs==2.5.4
