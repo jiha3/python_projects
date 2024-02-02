@@ -82,7 +82,7 @@ pathspec==0.10.2
 pbr==5.11.0
 peewee==3.15.4
 pexpect==4.8.0
-Pillow==9.0.1
+Pillow==10.2.0
 pipenv==2018.11.26
 pkcs7==0.1.2
 platformdirs==2.5.4
@@ -93,7 +93,7 @@ pycairo==1.20.1
 pycodestyle==2.10.0
 pycparser==2.20
 pycrypto==2.6.1
-pycryptodome==3.9.1
+pycryptodome==3.19.1
 pycryptodomex==3.11.0
 pycups==2.0.1
 pydantic==1.10.2
