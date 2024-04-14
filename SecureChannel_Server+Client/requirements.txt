@@ -46,7 +46,7 @@ GitPython==3.1.29
 glom==22.1.0
 greenlet==2.0.1
 httplib2==0.20.2
-idna==2.8
+idna==3.7
 importlib-metadata==1.6.0
 importlib-resources==1.4.0
 inflection==0.5.1
