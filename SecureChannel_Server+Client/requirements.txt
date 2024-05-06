@@ -153,7 +153,7 @@ virtualenv==20.0.18
 virtualenv-clone==0.5.4
 wadllib==1.3.6
 wcmatch==8.4.1
-Werkzeug==2.2.2
+Werkzeug==3.0.3
 where==1.0.2
 wrapt==1.9.0
 xdg==5
