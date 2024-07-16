@@ -160,3 +160,4 @@ xdg==5
 xkit==0.0.0
 zipp==1.2.0
 zope.interface==5.4.0
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
