@@ -23,7 +23,7 @@ multidict==6.0.4
 numpy==1.24.3
 pandas==2.0.1
 parsimonious==0.9.0
-protobuf==4.22.3
+protobuf==4.25.8
 pycryptodome==3.17
 pyrsistent==0.19.3
 python-dateutil==2.8.2
@@ -34,7 +34,7 @@ rlp==3.0.0
 six==1.16.0
 toolz==0.12.0
 tzdata==2023.3
-urllib3==1.26.15
+urllib3==2.5.0
 web3==6.2.0
 websockets==11.0.2
 yarl==1.9.2
